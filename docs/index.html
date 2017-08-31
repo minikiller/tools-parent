@@ -16,8 +16,15 @@
         name: '',
         repo: '',
         loadSidebar: true,
-         subMaxLevel: 3
+         subMaxLevel: 3,
+        search: {
+      maxAge: 86400000,
+      paths: 'auto',
+      placeholder: '搜索内容',
+      noData: '无结果！'
+    }
     }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </html>
